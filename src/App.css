@@ -1,0 +1,79 @@
+/* Genel stil ayarları */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9; /* Soft bir arka plan rengi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Yüksekliği ekranın tamamına yay */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #ececec; /* Gri bir arka plan */
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+
+
+h1 {
+  color: #4a90e2; /* Başlık için mavi renk */
+}
+
+input[type="file"] {
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-file-upload input {
+  display: none; /* input'u gizle */
+}
+
+button:hover {
+  background-color: #357ab7; /* Hover efekti */
+}
+
+.logo1 {
+  width: 400px;         /* Boyut — değiştirilebilir */
+  height: auto;         /* Oran korunsun */
+  margin-bottom: 20px;  /* Alt boşluk */
+  display: block;       /* Ortalamak için */
+  margin-left: auto;    /* Ortalamak için */
+  margin-right: auto;   /* Ortalamak için */
+}
+
