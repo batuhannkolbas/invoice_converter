@@ -21,7 +21,7 @@ function App() {
     });
 
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/uploadfiles/`, {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/uploadfiles/`, {
         method: 'POST',
         body: formData,
       });
