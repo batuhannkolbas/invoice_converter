@@ -21,7 +21,7 @@ function App() {
     });
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/uploadfiles/`, {
+      const response = await fetch('http://localhost:8000/uploadfiles/', {
         method: 'POST',
         body: formData,
       });
